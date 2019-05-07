@@ -1,0 +1,20 @@
+/* css的语法由两部分组成，前是选择器，表示选择了html中的那个标签，后是声明，具体如何修改该标签 */
+body,header,main,aside,footer{/* 逗号表示并列关系，这排标签全部被选择 */
+	
+}
+
+body header p{/* 空格表示递进关系，这里body下的子标签header下的子标签p被选中*/
+	
+}
+
+#red{/* id选择器，选择id为red的标签 */
+	
+}
+
+.green{/* 类选择器，选择class为green的标签 */
+
+}
+
+p{
+	background-color:red;
+}

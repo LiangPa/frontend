@@ -1,0 +1,42 @@
+
+main{
+	border-width:1px;
+	border-style:solid;
+	background-color:#EEEEEE;
+	margin:30px;
+	padding:30px;
+	min-width: 600px;
+	overflow:auto;
+}
+
+.div_left{
+	border-width:1px;
+	border-style:solid;
+	float:left;
+	width: 160px;
+	
+}
+
+.div_center{
+	border-width:1px;
+	border-style:solid;
+	min-width:300px;
+	margin-left: 220px;
+	margin-right: 140px;
+}
+
+.div_right{
+	border-width:1px;
+	border-style:solid;
+	float:right;
+	width: 120px;
+}
+
+.div_left img{
+	height:150px;
+}
+
+.div_left span{
+	/* 字体大小 */
+}
+
